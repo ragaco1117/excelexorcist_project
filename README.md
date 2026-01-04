@@ -1,4 +1,4 @@
-LLM Evaluation Project
+# LLM Evaluation Project
 
 This repo contains an exploratory project to evaluate Large Language Models (LLMs) (Azure OpenAI) for:
 
