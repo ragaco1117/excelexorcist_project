@@ -61,7 +61,12 @@ The project was designed as a learning exercise for model selection, evaluation,
 - `.gitignore`  
   Ensures local secrets (e.g. `.env`) are not committed.
 
-> **Important:** The `.env` file with API keys is intentionally **not** included in this repository.
+> **Important:** The `.env` file with API keys is intentionally **not** included in this repository. Its estructure is:
+
+   AZURE_OPENAI_ENDPOINT=https://YOUR-RESOURCE-NAME.cognitiveservices.azure.com
+   AZURE_OPENAI_API_KEY=YOUR_AZURE_OPENAI_KEY
+   AZURE_OPENAI_DEPLOYMENT_NAME=gpt-5-chat
+
 
 ---
 
@@ -76,10 +81,4 @@ The project was designed as a learning exercise for model selection, evaluation,
 
 ---
 
-## Setup
 
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/ragaco1117/excelexorcist_project.git
-cd excelexorcist_project
