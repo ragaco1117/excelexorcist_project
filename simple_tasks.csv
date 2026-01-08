@@ -1,0 +1,67 @@
+id,task_type,input_text,expected
+food_001,extract_food_items,"The food was not good, but I liked how the waitress apologized. I liked the hamburger, but the hamburger was not from this place.",hamburger
+food_002,extract_food_items,"I came for coffee, stayed for the croissant. The service was slow, but the croissant was perfect.",coffee; croissant
+food_003,extract_food_items,We didn't order dessert. The pizza was great and the salad was fresh.,pizza; salad
+food_004,extract_food_items,"The sushi was overpriced; however, the miso soup was comforting.",sushi; miso soup
+food_005,extract_food_items,"I asked for fries, but they brought onion rings instead. The burger was fine.",fries; onion rings; burger
+food_006,extract_food_items,No tacos today—just a burrito and a soda.,burrito; soda
+food_007,extract_food_items,The steak wasn't cooked right. The mashed potatoes were excellent though.,steak; mashed potatoes
+food_008,extract_food_items,Loved the ice cream! I didn't try the cake.,ice cream; cake
+food_009,extract_food_items,"The menu mentioned ramen, but I ordered udon.",ramen; udon
+food_010,extract_food_items,Great vibe. Terrible nachos. Amazing guacamole.,nachos; guacamole
+food_011,extract_food_items,"The burger, fries, and milkshake arrived cold. Still, the milkshake tasted great.",burger; fries; milkshake
+food_012,extract_food_items,I only had water. My friend had pasta and tiramisu.,water; pasta; tiramisu
+name_001,extract_last_name,Full name: John Smith,Smith
+name_002,extract_last_name,Full name: María Fernanda López García,López García
+name_003,extract_last_name,Full name: Ana Ruiz-López,Ruiz-López
+name_004,extract_last_name,Full name: Jean-Pierre Dupont,Dupont
+name_005,extract_last_name,Full name: J. R. R. Tolkien,Tolkien
+name_006,extract_last_name,Full name: Carlos M. de la Cruz Hernández,de la Cruz Hernández
+name_007,extract_last_name,Full name: Sarah O'Connor,O'Connor
+name_008,extract_last_name,Full name: Mohammed bin Salman,bin Salman
+name_009,extract_last_name,Full name: Xi Jinping,Jinping
+name_010,extract_last_name,Full name: Gabriela del Río,del Río
+name_011,extract_last_name,Full name: Marcus Aurelius Antoninus,Aurelius Antoninus
+name_012,extract_last_name,Full name: Luisa Fernanda Pérez de León,Pérez de León
+legal_001,extract_legal_entities,We signed a contract with Chabacano LLC.,Chabacano LLC
+legal_002,extract_legal_entities,This NDA applies to Chabacano L.L.C. and Chabacano LLC.,Chabacano L.L.C.; Chabacano LLC
+legal_003,extract_legal_entities,Please invoice Chabacano Grande de Veracruz SA de CV & CO for the services.,Chabacano Grande de Veracruz SA de CV & CO
+legal_004,extract_legal_entities,"Parties: (1) Acme, Inc.; (2) Beta Systems Ltd; (3) Chabacano LLC.","Acme, Inc.; Beta Systems Ltd; Chabacano LLC"
+legal_005,extract_legal_entities,"The sponsor is Fundación Río Azul A.C., not Avenida Chabacano (a street).",Fundación Río Azul A.C.
+legal_006,extract_legal_entities,We discussed Chabacano—just the neighborhood—no legal entity was involved.,
+legal_007,extract_legal_entities,"Transfer ownership to Servicios Integrales del Norte, S.A. de C.V.","Servicios Integrales del Norte, S.A. de C.V."
+legal_008,extract_legal_entities,The agreement mentions ALPHA CORP (US) and Alpha Corp. (EU).,ALPHA CORP (US); Alpha Corp. (EU)
+legal_009,extract_legal_entities,Payments should be made to 'Comercializadora La Vía Láctea S. de R.L. de C.V.',Comercializadora La Vía Láctea S. de R.L. de C.V.
+legal_010,extract_legal_entities,"We terminated the deal with Chabacano LLC, Chabacano LLC, and Chabacano LLC.",Chabacano LLC
+legal_011,extract_legal_entities,Counterparty: Chabacano SA CV (typo) — intended as Chabacano S.A. de C.V.,Chabacano SA CV; Chabacano S.A. de C.V.
+legal_012,extract_legal_entities,"Entities involved: Chabacano & Sons LLC; Chabacano and Sons, L.L.C.","Chabacano & Sons LLC; Chabacano and Sons, L.L.C."
+decision_001,extract_decision,"After reviewing the application, we cannot approve it at this time due to missing documentation.",denied
+decision_002,extract_decision,"We were going to reject the request, but after the appeal we approved it.",approved
+decision_003,extract_decision,Your request is pending while compliance completes verification.,pending
+decision_004,extract_decision,"We approve the refund. However, we do not approve the additional compensation.",approved
+decision_005,extract_decision,The committee declined the proposal despite strong support.,denied
+decision_006,extract_decision,Approved—conditional on completing KYC within 7 days.,approved
+decision_007,extract_decision,We did not deny the application; we approved it.,approved
+decision_008,extract_decision,The request remains under review. No decision has been made.,pending
+decision_009,extract_decision,"Unfortunately, the claim was rejected.",denied
+decision_010,extract_decision,Decision: ACCEPTED.,approved
+date_001,extract_primary_date_iso,"Let's meet on January 16, 2026 at 10am. If that fails, January 23, 2026 works too.",2026-01-16
+date_002,extract_primary_date_iso,"The contract was signed on March 11, 2025, but it became effective on April 1, 2025.",2025-03-11
+date_003,extract_primary_date_iso,"Delivery is expected by Sep 5, 2024. The order was placed on Aug 28, 2024.",2024-09-05
+date_004,extract_primary_date_iso,"Invoice date: February 2, 2026. Payment due: March 4, 2026.",2026-02-02
+date_005,extract_primary_date_iso,"The incident occurred on 2025-07-14, and the report was filed on 2025-07-20.",2025-07-14
+date_006,extract_primary_date_iso,"We rescheduled from November 9, 2025 to December 1, 2025.",2025-11-09
+date_007,extract_primary_date_iso,"The deadline is May 31, 2026 (end of day).",2026-05-31
+date_008,extract_primary_date_iso,"Start date: June 1, 2025. End date: June 30, 2025.",2025-06-01
+date_009,extract_primary_date_iso,"We last updated the policy on October 12, 2023; the prior version was from 2021.",2023-10-12
+date_010,extract_primary_date_iso,Appointment: 15 Feb 2026. Backup date: 22 Feb 2026.,2026-02-15
+contr_001,detect_contradiction,I never visited Paris. My favorite café in Paris is on Rue Cler.,yes
+contr_002,detect_contradiction,I ate sushi last night. I had dinner at home last night.,no
+contr_003,detect_contradiction,The package arrived on Monday. The package did not arrive on Monday.,yes
+contr_004,detect_contradiction,She is allergic to peanuts. She avoids peanuts whenever possible.,no
+contr_005,detect_contradiction,The system is down right now. The system is fully operational right now.,yes
+contr_006,detect_contradiction,I don't know his name. I think his name is Carlos.,maybe
+contr_007,detect_contradiction,We shipped the order yesterday; today we realized it never left the warehouse.,yes
+contr_008,detect_contradiction,The meeting is at 10am. Please join at 10:00 in the morning.,no
+contr_009,detect_contradiction,"I can’t recommend Vendor A over Vendor B, but I can recommend Vendor B over Vendor A.",no
+contr_010,detect_contradiction,"Payment is due within 30 days of receipt, not 30 days from invoice date.",no
